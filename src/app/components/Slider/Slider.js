@@ -10,25 +10,22 @@ export class Slider extends React.Component {
 	    this.state = {
 	      	slides: [
 			  {
-			    color: 'url(https://unsplash.it/1900/1024/?image=345) no-repeat center center ',
+			    color: 'url(https://unsplash.it/1900/1024/?image=497)',
 			  },
 			  {
-			    color: 'url(https://unsplash.it/1900/1024/?image=342) no-repeat center center ',
+			    color: 'url(https://unsplash.it/1900/1024/?image=291)',
 			  },
 			  {
-			    color: 'url(https://unsplash.it/1900/1024/?image=323) no-repeat center center ',
+			    color: 'url(https://unsplash.it/1900/1024/?image=786)',
 			  },
 			  {
-			    color: 'url(https://unsplash.it/1900/1024/?image=545) no-repeat center center ',
+			    color: 'url(https://unsplash.it/1900/1024/?image=768)',
 			  },
 			  {
-			    color: 'url(https://unsplash.it/1900/1024/?image=235) no-repeat center center ',
+			    color: 'url(https://unsplash.it/1900/1024/?image=726)',
 			  },
 			  {
-			    color: 'url(https://unsplash.it/1900/1024/?image=125) no-repeat center center ',
-			  },
-			  {
-			    color: 'url(https://unsplash.it/1900/1024/?image=645) no-repeat center center ',
+			    color: 'url(https://unsplash.it/1900/1024/?image=821)',
 			  }
 			],
 			autoplay: false,
@@ -113,7 +110,7 @@ export class Slider extends React.Component {
 	    let slides = this.state.slides.map( (item, index) => (
 	      <div className="each" 
 		       key={index} 
-		       style={{background: item.color}}></div> 
+		       style={{backgroundImage: item.color}}></div> 
 		    )
 	    );
 
