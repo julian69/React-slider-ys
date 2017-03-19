@@ -1,0 +1,39 @@
+.home{
+	height: 100vh;
+	background: #383335;
+
+
+	.home-content{
+		width: 80%;
+		position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	    text-align: center;
+
+	    h1{
+			color: #fff;
+			text-transform: uppercase;
+
+		    p{
+	    	    font-size: 2em;
+
+	    	    span{
+	    	    	color: #00D8FF;
+	    	    }
+		    }
+		}
+
+		.btn-custom{
+		    background: transparent;
+		    border-radius: 0;
+		    border: 2px solid #fff;
+		    text-transform: uppercase;
+		    color: #fff;
+
+		    &:hover{
+		    	opacity: 0.7 !important;
+		    }
+		}
+	}
+}
